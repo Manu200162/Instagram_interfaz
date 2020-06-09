@@ -156,6 +156,55 @@
             app:srcCompat="@drawable/PhotoBar2" />
 
     </LinearLayout>
+ <TableLayout
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     android:layout_below="@id/photobar"
+     android:paddingStart="26dp"
+     >
+
+     <TableRow>
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             app:srcCompat="@drawable/Img11"
+             android:paddingBottom="3dp"
+             android:paddingEnd="3dp"
+             />
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             app:srcCompat="@drawable/Img12"
+             android:paddingBottom="3dp"
+             android:paddingEnd="3dp"
+             />
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             app:srcCompat="@drawable/Img13"
+             android:paddingBottom="3dp"
+             />
+     </TableRow>
+     <TableRow>
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             app:srcCompat="@drawable/Img21"
+             android:paddingEnd="3dp"
+             />
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             app:srcCompat="@drawable/Img22"
+             android:paddingEnd="3dp"
+             />
+         <ImageView
+             android:layout_width="120dp"
+             android:layout_height="120dp"
+             app:srcCompat="@drawable/Img23"
+             />
+     </TableRow>
+ </TableLayout>
 
 
 
