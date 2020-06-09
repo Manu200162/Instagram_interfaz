@@ -4,26 +4,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="#1a1a1a"
     tools:context=".MainActivity">
     <LinearLayout
-        android:id="@+id/toolBar"
+    android:id="@+id/toolBar"
+    android:layout_width="wrap_content"
+    android:layout_height="64dp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/head2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="90"
+        app:srcCompat="@drawable/Head2" />
+    <ImageView
+        android:id="@+id/head1"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="15"
+        app:srcCompat="@drawable/Head1" />
+</LinearLayout>
+    <ImageView
+        android:id="@+id/announcement"
+        android:layout_below="@id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/Announcement" />
+    <LinearLayout
+        android:id="@+id/profile"
         android:layout_width="wrap_content"
-        android:layout_height="64dp"
+        android:layout_height="110dp"
+        android:layout_below="@id/announcement"
         android:orientation="horizontal">
 
         <ImageView
-            android:id="@+id/head2"
+            android:id="@+id/profile1"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="90"
-            app:srcCompat="@drawable/Head2" />
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            app:srcCompat="@drawable/Profile1" />
         <ImageView
-            android:id="@+id/head1"
+            android:id="@+id/profile2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="15"
-            app:srcCompat="@drawable/Head1" />
+            android:layout_weight="25"
+            app:srcCompat="@drawable/Profile2" />
+        <ImageView
+            android:id="@+id/profile3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            app:srcCompat="@drawable/Profile3" />
+        <ImageView
+            android:id="@+id/profile4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="25"
+            app:srcCompat="@drawable/Profile4" />
     </LinearLayout>
 
 
