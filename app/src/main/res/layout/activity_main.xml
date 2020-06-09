@@ -9,7 +9,7 @@
     <LinearLayout
     android:id="@+id/toolBar"
     android:layout_width="wrap_content"
-    android:layout_height="64dp"
+    android:layout_height="55dp"
     android:orientation="horizontal">
 
     <ImageView
@@ -29,12 +29,12 @@
         android:id="@+id/announcement"
         android:layout_below="@id/toolBar"
         android:layout_width="match_parent"
-        android:layout_height="44dp"
+        android:layout_height="40dp"
         app:srcCompat="@drawable/Announcement" />
     <LinearLayout
         android:id="@+id/profile"
         android:layout_width="wrap_content"
-        android:layout_height="110dp"
+        android:layout_height="100dp"
         android:layout_below="@id/announcement"
         android:orientation="horizontal">
 
@@ -73,12 +73,13 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="70dp"
             app:srcCompat="@drawable/Description" />
     </FrameLayout>
     <LinearLayout
+        android:id="@+id/editbar"
         android:layout_width="wrap_content"
-        android:layout_height="70dp"
+        android:layout_height="50dp"
         android:layout_below="@+id/descripcion"
         android:orientation="horizontal">
 
@@ -101,6 +102,61 @@
             android:layout_height="match_parent"
             android:layout_weight="33.33"
             app:srcCompat="@drawable/EditBar3" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/stories"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/editbar"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            app:srcCompat="@drawable/Stories1" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            app:srcCompat="@drawable/Stories2" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            app:srcCompat="@drawable/Stories3" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            app:srcCompat="@drawable/Stories4" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="20"
+            app:srcCompat="@drawable/Stories5" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/photobar"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_below="@+id/stories"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/editbar1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            app:srcCompat="@drawable/PhotoBar1" />
+        <ImageView
+            android:id="@+id/editbar1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="50"
+            app:srcCompat="@drawable/PhotoBar2" />
+
     </LinearLayout>
 
 
