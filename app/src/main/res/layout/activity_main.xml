@@ -225,12 +225,12 @@
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="20"
+            android:layout_weight="21"
             app:srcCompat="@drawable/menu2" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="20"
+            android:layout_weight="19"
             app:srcCompat="@drawable/menu3" />
         <ImageView
             android:layout_width="0dp"
