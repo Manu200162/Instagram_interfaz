@@ -74,7 +74,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            app:srcCompat="@drawable/description" />
+            app:srcCompat="@drawable/descripcion" />
     </FrameLayout>
     <LinearLayout
         android:id="@+id/editbar"
