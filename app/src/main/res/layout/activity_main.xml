@@ -17,20 +17,20 @@
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="90"
-        app:srcCompat="@drawable/Head2" />
+        app:srcCompat="@drawable/head2" />
     <ImageView
         android:id="@+id/head1"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="15"
-        app:srcCompat="@drawable/Head1" />
+        app:srcCompat="@drawable/head1" />
 </LinearLayout>
     <ImageView
         android:id="@+id/announcement"
         android:layout_below="@id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        app:srcCompat="@drawable/Announcement" />
+        app:srcCompat="@drawable/announcement" />
     <LinearLayout
         android:id="@+id/profile"
         android:layout_width="wrap_content"
@@ -43,26 +43,26 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="25"
-            app:srcCompat="@drawable/Profile1" />
+            app:srcCompat="@drawable/profile1" />
         <ImageView
             android:id="@+id/profile2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
-            app:srcCompat="@drawable/Profile2" />
+            app:srcCompat="@drawable/profile2" />
         <ImageView
             android:id="@+id/profile3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
-            app:srcCompat="@drawable/Profile3" />
+            app:srcCompat="@drawable/profile3" />
 
         <ImageView
             android:id="@+id/profile4"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="25"
-            app:srcCompat="@drawable/Profile4" />
+            app:srcCompat="@drawable/profile4" />
     </LinearLayout>
 
     <FrameLayout
@@ -74,7 +74,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            app:srcCompat="@drawable/Description" />
+            app:srcCompat="@drawable/description" />
     </FrameLayout>
     <LinearLayout
         android:id="@+id/editbar"
@@ -88,20 +88,20 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="33.33"
-            app:srcCompat="@drawable/EditBar1" />
+            app:srcCompat="@drawable/edit_bar1" />
         <ImageView
             android:id="@+id/editBar2"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="33.33"
-            app:srcCompat="@drawable/EditBar2" />
+            app:srcCompat="@drawable/edit_bar2" />
 
         <ImageView
             android:id="@+id/editBar3"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="33.33"
-            app:srcCompat="@drawable/EditBar3" />
+            app:srcCompat="@drawable/edit_bar3" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/stories"
@@ -114,28 +114,28 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Stories1" />
+            app:srcCompat="@drawable/stories1" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Stories2" />
+            app:srcCompat="@drawable/stories2" />
 
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Stories3" />
+            app:srcCompat="@drawable/stories3" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Stories4" />
+            app:srcCompat="@drawable/stories4" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Stories5" />
+            app:srcCompat="@drawable/stories5" />
     </LinearLayout>
     <LinearLayout
         android:id="@+id/photobar"
@@ -148,12 +148,12 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="50"
-            app:srcCompat="@drawable/PhotoBar1" />
+            app:srcCompat="@drawable/photo_bar1" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="50"
-            app:srcCompat="@drawable/PhotoBar2" />
+            app:srcCompat="@drawable/photo_bar2" />
 
     </LinearLayout>
  <TableLayout
@@ -168,21 +168,21 @@
          <ImageView
              android:layout_width="120dp"
              android:layout_height="120dp"
-             app:srcCompat="@drawable/Img11"
+             app:srcCompat="@drawable/img11"
              android:paddingBottom="3dp"
              android:paddingEnd="3dp"
              />
          <ImageView
              android:layout_width="120dp"
              android:layout_height="120dp"
-             app:srcCompat="@drawable/Img12"
+             app:srcCompat="@drawable/img12"
              android:paddingBottom="3dp"
              android:paddingEnd="3dp"
              />
          <ImageView
              android:layout_width="120dp"
              android:layout_height="120dp"
-             app:srcCompat="@drawable/Img13"
+             app:srcCompat="@drawable/img13"
              android:paddingBottom="3dp"
              android:paddingEnd="3dp"
              />
@@ -191,21 +191,21 @@
          <ImageView
              android:layout_width="120dp"
              android:layout_height="120dp"
-             app:srcCompat="@drawable/Img21"
+             app:srcCompat="@drawable/img21"
              android:paddingBottom="3dp"
              android:paddingEnd="3dp"
              />
          <ImageView
              android:layout_width="120dp"
              android:layout_height="120dp"
-             app:srcCompat="@drawable/Img22"
+             app:srcCompat="@drawable/img22"
              android:paddingBottom="3dp"
              android:paddingEnd="3dp"
              />
          <ImageView
              android:layout_width="120dp"
              android:layout_height="120dp"
-             app:srcCompat="@drawable/Img23"
+             app:srcCompat="@drawable/img23"
              android:paddingBottom="3dp"
              android:paddingEnd="3dp"
              />
@@ -221,27 +221,27 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Menu1" />
+            app:srcCompat="@drawable/menu1" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Menu2" />
+            app:srcCompat="@drawable/menu2" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Menu3" />
+            app:srcCompat="@drawable/menu3" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Menu4" />
+            app:srcCompat="@drawable/menu4" />
         <ImageView
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="20"
-            app:srcCompat="@drawable/Menu5" />
+            app:srcCompat="@drawable/menu5" />
     </LinearLayout>
 
 
